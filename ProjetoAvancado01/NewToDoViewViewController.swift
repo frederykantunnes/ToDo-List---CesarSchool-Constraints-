@@ -21,7 +21,7 @@ class NewToDoViewViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "New Task";
+        
         
         if (taskIndex != -1){
             let tasks = UserDefaults.standard.array(forKey: "tasks")
@@ -29,10 +29,12 @@ class NewToDoViewViewController: UIViewController {
             task.text = taskedit[0]
             details.text = taskedit[1]
             edit = true
+            self.title = "Edit Task";
         }
         else{
             taskName = ""
             taskDetails = ""
+            self.title = "New Task";
         }
         
         // Do any additional setup after loading the view.

@@ -81,7 +81,7 @@
                                         <constraint firstAttribute="trailing" secondItem="Vac-E3-vZg" secondAttribute="trailing" constant="16" id="yxv-W6-1qw"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="0.82169426463937334" blue="0.82026799758487323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <connections>
                                     <outlet property="lbDetails" destination="NNh-jo-FkL" id="c6w-in-NDW"/>
                                     <outlet property="lbTitle" destination="ghc-i6-C5Z" id="zLV-P7-oR7"/>
